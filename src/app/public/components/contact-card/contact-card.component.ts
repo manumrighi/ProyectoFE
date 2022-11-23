@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Contact } from 'src/app/public/interfaces/contact';
+import { Contact, defaultContact } from 'src/app/core/interfaces/contact';
 
 @Component({
   selector: 'app-contact-card',
@@ -9,7 +9,7 @@ import { Contact } from 'src/app/public/interfaces/contact';
 export class ContactCardComponent implements OnInit {
 
   constructor() { }
-  @Input() contact!: Contact;
+  @Input() contact: Contact = defaultContact;
 
   ngOnInit(): void {
   }

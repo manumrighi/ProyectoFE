@@ -1,18 +1,18 @@
 export interface Contact {
   id: number,
-  name: string,
+  firstName: string,
   lastName: string,
-  number: number,
+  phoneNumber: number,
   email: string,
-  favorite?: boolean,
+  favorite?: boolean
 }
 
 export const defaultContact:Contact = {
   'id': 0,
-  'name': "Horacio",
+  'firstName': "Horacio",
   'lastName': "Larreta",
-  'number': 892347189,
+  'phoneNumber': 892347189,
   'email': "hola@gmail.com",
-  'favorite': true,
+  'favorite': true
 }
 
