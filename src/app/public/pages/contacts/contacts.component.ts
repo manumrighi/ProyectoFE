@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { Contact } from '../../interfaces/contact';
+import { contactsData } from 'src/assets/MockData/data';
 
 @Component({
-  selector: 'app-contacts',
+  selector: 'app-contacts', 
   templateUrl: './contacts.component.html',
   styleUrls: ['./contacts.component.scss']
 })
 export class ContactsComponent implements OnInit {
 
-  constructor() { }
+  contactsData = contactsData;
 
-  contacts: Contact[]=[];
+  constructor() { }
 
   ngOnInit(): void {
   }

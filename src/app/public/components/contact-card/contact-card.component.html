@@ -1,12 +1,10 @@
-<div class="card-cointainer">
-  <div class="avatar">
-    <div class="avatar-letters">
+<div id="container">
+    <div id="left">
+        <p id="name">{{contact.firstName}} {{contact.lastName}}</p>
+        <span id="telephoneNumber">{{contact.phoneNumber}}</span>
     </div>
-  </div>
-  <div>
-    <p class="name">
-      {{contact.name}}
-    </p>
-    <div class="card-divider"></div>
-  </div>
+    <div id="right">
+        <button>Llamar</button>
+        <a href="https://wa.me/{{contact.phoneNumber}}" target="_blank">WP</a>
+    </div>
 </div>
