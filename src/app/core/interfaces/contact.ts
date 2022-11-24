@@ -14,3 +14,11 @@ export const defaultContact:Contact = {
   'favorite': true
 }
 
+export interface ContactJsonPlaceholder {
+  id?: number,
+  name?: string,
+  number?: number,
+  email?: string,
+  favorite?: boolean
+}
+
