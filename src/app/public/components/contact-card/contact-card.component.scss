@@ -8,6 +8,7 @@
 }
 
 #container{
+  margin: 0 10%;
   border: 1px solid gray;
   display: flex;
   justify-content: space-between;
@@ -18,4 +19,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  margin: 0 3%;
+}
+
+#left{
+  margin-left: 3%;
+}
+
+button {
+  margin: 2px;
+  width: 70px;
+  background-color: rgba(191, 243, 240, 0.671);
+  border-radius: 10px;
 }

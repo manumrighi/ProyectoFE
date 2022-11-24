@@ -1,10 +1,11 @@
 <div id="container">
     <div id="left">
-        <p id="name">{{contact.firstName}} {{contact.lastName}}</p>
-        <span id="telephoneNumber">{{contact.phoneNumber}}</span>
+        <p id="name">{{contact.name}}</p>
+        <span id="telephoneNumber">{{contact.number}}</span>
     </div>
     <div id="right">
-        <button>Llamar</button>
-        <a href="https://wa.me/{{contact.phoneNumber}}" target="_blank">WP</a>
+        <button [routerLink]="['/contacts/verContacto', 1]">Ver</button>
+        <button [routerLink]="['/contacts/editarContacto', 1]">Editar</button>
+        <button>Borrar</button>
     </div>
 </div>

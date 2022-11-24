@@ -1,3 +1,10 @@
-<p>Listado de contactos</p>
+<div class="title">
+  <h2>Listado de contactos</h2>
+</div>
+ 
+<button routerLink="/contacts/agregarContacto">Agregar contacto nuevo</button>
 
+<main>
   <app-contact-card *ngFor="let contact of contactsData"></app-contact-card>
+</main>
+
