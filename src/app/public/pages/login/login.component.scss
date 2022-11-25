@@ -6,16 +6,21 @@
 
 body {
   font-family: arial;
-  background-image: url("https://static.vecteezy.com/system/resources/previews/002/393/823/original/gradient-blue-background-free-vector.jpg");
+  background:#017bab;
+  height: 920px;
+ 
+  width: 1912px;
+
+}
+div{
+  padding-top: 180px;
   
 }
-
 .form-login {
   width: 400px;
   height: 340px;
   background: #4e4d4d;
   margin: auto;
-  margin-top: 180px;
   box-shadow: 7px 13px 37px #000;
   padding: 20px 30px;
   border-top: 4px solid #017bab;
